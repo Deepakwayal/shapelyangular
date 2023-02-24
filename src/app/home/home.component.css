@@ -1,0 +1,538 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 109.6vh;
+    
+
+}
+
+
+.img h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    flex-wrap: wrap;
+    /* font-family: "Helvetica Neue, Helvetica Arial, sans-serif"; */
+    font-family: 'sans-serif';
+
+}
+
+.img p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+    max-height: 100%;
+
+
+}
+
+.btn1 {
+
+    background-color: #715bf0;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+
+
+}
+
+.btn1:hover {
+    background-color: #4527ec;
+
+}
+
+
+.btn2 {
+    background-color: transparent;
+    border-color: white;
+    color: whitesmoke;
+    width: 180px;
+    height: 45px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.btn2:hover {
+    color: black;
+    background-color: white;
+}
+
+/*SEO*/
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    height: 90vh;
+    flex-wrap: wrap;
+
+
+}
+
+.container2 img {
+    height: 50%;
+    width: 40%;
+
+}
+
+.seo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.seo h3 {
+    display: flex;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: start;
+    text-align: center;
+}
+
+.seo p {
+    display: flex;
+    opacity: 0.5;
+    text-align: start;
+    justify-content: center;
+    width: 290px;
+}
+
+.seo button {
+    background-color: #715bf0;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+    text-align: center;
+
+}
+
+.seo button:hover {
+    background-color: #4527ec;
+}
+
+/*Portfolio Section*/
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    height: 90vh;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.container3 img {
+    height: 50%;
+    width: 40%;
+}
+
+.port h3 {
+
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: start;
+}
+
+.port p {
+    opacity: 0.5;
+    text-align: start;
+    justify-content: center;
+    width: 290px;
+}
+
+.port button {
+    background-color: #715bf0;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+
+}
+
+.port button:hover {
+    background-color: #4527ec;
+}
+
+
+/* Small Parallel Section*/
+.container4 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+    height: 80.6vh;
+    flex-wrap: wrap;
+     background-size: cover;
+
+}
+
+.parallel h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'sans-serif';
+    flex-direction: row;
+}
+
+/* .parallel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+} */
+
+.parallel p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    width: 90%;
+}
+
+.parallel button {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #715bf0;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+
+}
+
+.parallel button:hover {
+    background-color: #4527ec;
+}
+
+/*limitless section*/
+.container5 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: auto;
+    background-color: #f5f5f5;
+
+
+
+
+}
+
+.container20 {
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container20 img{
+    width: 90%;
+    text-align: center;
+}
+.limit h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    opacity: 0.90;
+    color: #0e1015;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.limit p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    color: rgb(17, 16, 16);
+    text-align: center;
+    width: 90%;
+}
+
+.limit button {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #715bf0;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+    margin-bottom: 30px;
+
+}
+
+.limit button:hover {
+    background-color: #4527ec;
+}
+
+/*  container6  projects*/
+
+.container6 {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #131212;
+    color: white;
+    padding: 96px 0;
+    position: relative;
+    height: 122vh;
+}
+
+.project {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+
+}
+
+.mat-grid-list img {
+    height: 35vh;
+
+}
+
+/* Our Customers Section*/
+
+/* .container7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+  flex-wrap: wrap;
+   background-image: url('https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg');
+   background-size: 100%;
+   /* height: 40vh; */
+/* background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat; */
+/* } */
+/* .customer h1{
+    color: white;
+    flex-direction: column;
+}  */
+
+
+/*Slider*/
+
+.container7 {
+    background-size: 100%;
+    /* height: 90.7vh;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+
+}
+
+.container7 h1 {
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container7 #carouselExampleInterval {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 30px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item p {
+
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#slider-img {
+    margin-top: 20px;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.carousel-item h4 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Our main client logo*/
+.container8 {
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container8 h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    margin-top: 60px;
+
+}
+
+.carousel {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+
+/* WordPress Theme */
+
+.container9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.container9 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 60px;
+}
+
+.container9 h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container9 button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+
+
+/*Bottom*/
+
+
+.container10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    height: 30vh;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+.logo span {
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.logo span:hover {
+    color: #4527ec;
+}
+
+.up{
+    
+     border: 1px solid rgb(255, 255, 255);
+     width: 30px;
+     height: 30px;
+     justify-content: center;
+     text-align: center;
+ 
+}
+
+/*Media Query*/
+
+@media screen and (max-width:700px){
+   
+    .container2 .seo{
+        justify-content: row;
+    }
+
+   
+}

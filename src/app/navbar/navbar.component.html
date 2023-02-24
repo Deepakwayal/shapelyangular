@@ -1,0 +1,63 @@
+
+<div class="togglearea">
+   <div class="head">Shapely Demo</div>
+   <label for="toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+   </label>
+</div>
+<input type="checkbox" id="toggle">
+
+
+<mat-toolbar>
+   
+  
+  
+   <div class="title">
+      <div class="tushar">Shapely Demo</div>
+      <span>HOME</span>
+      <span>BLOG</span>
+      <span>PORTFOLIO</span>
+
+      <span [matMenuTriggerFor]="menu">ABOUTTHETEST<mat-icon>expand_more</mat-icon> </span>
+      <mat-menu #menu="matMenu">
+         <button mat-menu-item>Page Image Alignment</button>
+         <button mat-menu-item>Page Markup And Formatting</button>
+         <button mat-menu-item>Clearing Floats</button>
+         <button mat-menu-item>Page with comments</button>
+         <button mat-menu-item>Page with comments disabled</button>
+      </mat-menu>
+
+      <span [matMenuTriggerFor]="animals">LEVEL1 <mat-icon>expand_more</mat-icon></span>
+      <mat-menu #animals="matMenu">
+         <button mat-menu-item [matMenuTriggerFor]="vertebrates">Level1</button>
+         <button mat-menu-item>Level2</button>
+         <button mat-menu-item>Level3</button>
+      </mat-menu>
+      <mat-menu #vertebrates="matMenu">
+         <button mat-menu-item>Level3</button>
+         <button mat-menu-item>Level3a</button>
+         <button mat-menu-item>Level3b</button>
+
+
+      </mat-menu>
+      <span>SHOP</span>
+
+
+
+
+
+      <div class="btn">
+         <mat-icon>search</mat-icon>
+      </div>
+
+
+
+   </div>
+
+
+
+
+
+</mat-toolbar>

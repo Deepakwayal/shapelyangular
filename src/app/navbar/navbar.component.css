@@ -1,0 +1,136 @@
+.mat-toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 77px;
+    background-color: white;  
+    z-index: 1;
+    position: fixed; 
+    cursor: pointer;
+    overflow: hidden;
+    
+    
+  
+}
+.head,.tushar{
+    font-size: 24px;
+    
+    color: #666;
+    font-weight: 300;
+    margin-right: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.title span {
+    display: flex;
+    margin-right: 25px;
+    justify-content: space-between;
+    float: left;
+    /* position: relative; */
+    opacity: 1;
+    color: #4c4c4c;
+    flex-direction: row;
+    font-size: 12px;
+    letter-spacing: -2;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.mat-icon{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color:blue;
+   
+
+}
+/* */
+#toggle{
+    display: none;
+}
+.togglearea{
+    display: none;
+    color: white;
+    justify-content: flex-end;
+   
+}
+.togglearea label{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.togglearea label span{
+    background-color: black;
+    height: 4px;
+    width: 70%;
+    margin: 2px 0;
+
+}
+
+
+@media screen and (max-width: 843px){
+
+    .mat-toolbar{
+        flex-direction: column;
+        display: none;
+        justify-content: flex-start;
+        text-align: center;
+       height: 100px;
+
+    }
+    #toggle:checked + .mat-toolbar{
+        display: flex;
+        justify-content: center;
+        color: red;
+    }
+  
+    .togglearea{
+        display: flex;
+       
+    
+    }
+    .title span{
+      margin-right: 70px;
+    
+    
+    }
+
+    .title{
+       margin: 50px;
+    }
+
+    .tushar{
+        display: none;
+    }
+  
+}
+
+
